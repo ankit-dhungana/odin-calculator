@@ -79,3 +79,26 @@ body {
 .operators:hover {
   background-color: rgb(194, 16, 16);
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: auto;
+    height: auto;
+  }
+  .btn {
+    width: 2.5em;
+    height: 2.5em;
+    font-size: 1.2em;
+  }
+  .controls {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: auto;
+    height: auto;
+  }
+  .display {
+    width: auto;
+    min-height: 10em;
+    font-size: 1.2em;
+  }
+}
