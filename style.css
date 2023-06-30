@@ -14,8 +14,8 @@ body {
 }
 
 .container {
-  min-width: fit-content;
-  min-height: fit-content;
+  min-width: auto;
+  min-height: auto;
   border: solid 0.2em #f2ededbc;
   border-radius: 0.5em;
   background-color: #f2ededbc;
@@ -51,7 +51,7 @@ body {
 }
 .btn {
   width: 3em;
-  height: 3.1em;
+  height: 3em;
   border-radius: 50%;
   background-color: rgb(121, 149, 9);
   color: #fff;
